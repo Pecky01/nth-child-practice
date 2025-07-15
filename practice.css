@@ -1,0 +1,33 @@
+.parent {
+    /* border: 2px solid black; */
+}
+.child {
+    border: 2px solid cornflowerblue;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-heading {
+    color: grey;
+    background: bisque;
+    padding: 20px 50px;
+}
+.parent .child:nth-child(even) {
+    color: aquamarine;
+    background: grey;
+}
+.parent .child:nth-child(even) .box-heading {
+    color: bisque;
+    background: green;
+    padding: 20px 50px;
+}
+.child p {
+    border: 2px solid pink;
+    width: 20%;
+    padding: 10px;
+}
+.text-holder {
+    display: flex;
+    justify-content: space-evenly;
+}
